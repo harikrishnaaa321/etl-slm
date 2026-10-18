@@ -1,0 +1,32 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local config
+.env
+
+# Model files (large, keep out of git)
+qwen_base/
+qwen3-sql-lora-final/
+qwen3-sql-merged/
+*.safetensors
+*.bin
+*.gguf
+
+# Sample and generated data
+*.db
+*.sqlite
+mapping.xlsx
+validation_report.csv
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
